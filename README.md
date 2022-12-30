@@ -1,6 +1,7 @@
 # 🔥 반짝이의 백준 뿌셔 🔥
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=junsang819@hanyang.ac.kr)](https://solved.ac/junsang819@hanyang.ac.kr/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=junsang819
+)](https://solved.ac/junsang819/)
 <br>
 
 ## 시작한 날 : 2022/12/31
