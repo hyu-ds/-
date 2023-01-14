@@ -14,9 +14,10 @@
 print("Hello, world!")
 ```
 print로 출력만 하면 된다.# -
-# -
 
-# -
-# -
-# banzzagi
-# banzzagi
+### <br>간단한 꼼수
+---
+날짜 2022.01.12.
+시간 : pypy3 > python3
+메모리 : pypy3 < python3
+
