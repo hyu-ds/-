@@ -21,3 +21,9 @@ print로 출력만 하면 된다.# -
 시간 : pypy3 > python3
 메모리 : pypy3 < python3
 
+### <br>git 충돌
+---
+날짜 2022.01.16.
+터미널에 
+rm -f .git/index.lock
+를 작성해주자!
