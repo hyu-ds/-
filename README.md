@@ -64,3 +64,10 @@ math.sqrt(a) 도 가능
 날짜 2022.01.25.
 푼문제:11758번 CCW
 CCW(counter-clock-wise) 반시계방향을 이루는 두 벡터를 외적하면 양수 시계방향을 이루는 두 벡터를 외적하면 음수 일직선이면 0.
+
+### <br>조합 라이브러리
+---
+날짜 2022.01.25.
+```python
+from itertools import combination
+```
