@@ -1,13 +1,22 @@
+def sosu(n):
+    lst = [i for i in range(2,n+1)]
+    k = 0
+    while k < len(lst):
+        for i in lst:
+            if i % lst[k] == 0 and i / lst[k] != 1:
+                lst.remove(i) 
+        k += 1
+    return lst
 N = int(input())
 nums = list(map(int, input().split()))
-ss = []
+ss = 0
 for i in nums:
-    if i == 2:
-        ss.append(i)
-    else:
-        for j in range(2,i):
-            if i % j != 0:
-                ss.append(i)
-            else:
-                
-print(len(ss))
+    if i in sosu(1000):
+        ss += 1
+print(ss)
+
+    
+
+
+
+    

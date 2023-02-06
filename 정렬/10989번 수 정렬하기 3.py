@@ -1,8 +1,11 @@
 import sys
 N = int(sys.stdin.readline())
-A = []
+zeros = [0] * 10001
+
 for i in range(N):
-    A.append(int(sys.stdin.readline()))
-A.sort()
-for j in A:
-    print(j)
+    A = int(sys.stdin.readline())
+    zeros[A] += 1
+for i in range(len(zeros)):
+    for j in range(zeros[i]):
+        print(i)
+

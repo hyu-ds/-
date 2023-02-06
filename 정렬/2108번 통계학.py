@@ -1,17 +1,20 @@
-import sys
-N = int(sys.stdin.readline())
-A = []
-B = {}
-for _ in range(N):
-    a = int(sys.stdin.readline())
-    A.append(a)
-for i in range(len(A)):
-    if A[i] not in B:
-        B[A[i]] = 1
-    if A[i] in B:
-        B[A[i]] += 1        
-max(B.values())
-print(sum(A)/len(A))
-print(int(A[(N+1)/2]))
-print()
-print(A[-1]-A[0])
+N = int(input())
+nums = []
+can = []
+for i in range(N):
+    nums.append(int(input()))
+nums.sort()
+cnt = [0] * 8001
+for i in range(len(nums)):
+    cnt[nums[i]+4000] += 1
+for i in range(len(cnt)):
+    if cnt[i] == max(cnt):
+        can.append(i-4000)
+can.sort()
+print(round(sum(nums)/len(nums)))
+print(nums[int((len(nums)+1)/2)-1])
+if len(can) != 1:
+    print(can[1])
+else:
+    print(can[0])
+print(nums[-1]-nums[0])
